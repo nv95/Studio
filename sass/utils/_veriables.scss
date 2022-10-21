@@ -1,0 +1,30 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --secondary-accent-color: #188CE8;
+    --primary-white-color: #FFFFFF;
+    --secondary-white-color: #F5F4FA;
+    --third-white-color: #F5F5F5;
+    --black-color: #000000;
+    --secondary-bg-color: #2F303A;
+    --transparent-color: rgb(255, 255, 255, 0.6);
+    --transparent-color-footer-icons: rgba(255, 255, 255, 0.1);
+    --fill-color-items: #AFB1B8;
+    --bg-color-hero: #C4C4C4;
+    --bg-color-desription-portfolio: rgba(33, 150, 243, 0.9);
+    --bg-modal-window: rgba(0, 0, 0, 0.2);
+}
+
+// Sass variables for Fonts
+// For mobile
+$preMobile: 479px;
+$mobile: 480px;
+
+// For tablet
+$preTablet: 767px;
+$tablet: 768px;
+
+// For desctop
+$preDesctop: 1199px;
+$desctop: 1200px;

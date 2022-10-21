@@ -1,0 +1,90 @@
+.clients__section {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and(min-width:$desctop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+
+    & .clients__title {
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.18;
+
+        text-align: center;
+
+        @media screen and(min-width:$desctop) {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+
+            margin-bottom: 50px;
+        }
+
+    }
+}
+
+.container-clietns {
+    @media screen and (min-width:$mobile) {
+        width: 480px;
+    }
+
+    @media screen and (min-width:$tablet) {
+        width: 768px;
+    }
+
+    @media screen and (min-width:$desctop) {
+        width: 1200px;
+    }
+}
+
+.clients__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+
+    & .clients__link {
+        height: 92px;
+        display: flex;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        justify-content: center;
+
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+        width: 210px;
+
+        @media screen and(min-width:$tablet) {
+            width: 226px;
+        }
+
+        @media screen and(min-width:$desctop) {
+            width: 170px;
+        }
+
+    }
+
+    & .icons {
+        fill: var(--fill-color-items);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    & .clients__link:hover svg,
+    & .clients__link:focus svg {
+        fill: var(--accent-color);
+
+    }
+
+    & .clients__link:hover,
+    & .clients__link:focus {
+        border-color: var(--accent-color);
+
+    }
+}
