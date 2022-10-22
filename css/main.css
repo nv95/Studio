@@ -1050,6 +1050,11 @@ img {
   padding-bottom: 94px;
   display: none;
 }
+@media screen and (min-width: 1200px) {
+  .work__section {
+    display: block;
+  }
+}
 .work__section .work__title {
   margin-bottom: 50px;
   font-weight: 700;

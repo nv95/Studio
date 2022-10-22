@@ -5,7 +5,9 @@
 
     display: none;
 
-
+    @media screen and(min-width:$desctop) {
+        display: block;
+    }
 
 
     & .work__title {
