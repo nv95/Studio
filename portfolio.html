@@ -13,7 +13,6 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
-
 </head>
 
 <body>
@@ -24,9 +23,50 @@
                 <a href="./index.html" class="header-logo">
                     <span class="web">Web</span>Studio
                 </a>
+                <!-- Модалка телефон -->
+                <button class="menu-toggle link js-open-menu" type="button" aria-label="Перемикач мобільного меню"
+                    aria-expanded="false">
+                    <svg width="40px" height="40px">
+                        <use class="icon-menu" href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
+                <div class="menu-container js-menu-container">
+                    <button class="menu-toggle link js-close-menu" type="button">
+                        <svg width="40px" height="40px">
+                            <use class="icon-cross" href="./images/icons.svg#icon-cross"></use>
+                        </svg>
+                    </button>
+                    <ul class="mobile-menu">
+                        <li class="list"> <a href="./index.html" class="link ">Студія</a> </li>
+                        <li class="list"> <a href="./portfolio.html" class="link current">Портфоліо</a> </li>
+                        <li class="list"> <a href="#" class="link">Контакти</a> </li>
+                    </ul>
+                    <div>
+                        <ul class="mobile-contacts">
+                            <li class="list"><a href="tel:+380961111111" class="tel"> +38 096 111 11 11 </a></li>
+                            <li class="list"><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                        <ul class="mobile-social">
+                            <li class="list">
+                                <a href="#" class="link" target="_blank"
+                                    rel="noopener nofollow noreferrer">Instagram</a>
+                            </li>
+                            <li class="list">
+                                <a href="#" class="link" target="_blank" rel="noopener nofollow noreferrer">Twitter</a>
+                            </li>
+                            <li class="list">
+                                <a href="#" class="link" target="_blank" rel="noopener nofollow noreferrer">Facebook</a>
+                            </li>
+                            <li class="list">
+                                <a href="#" class="link" target="_blank" rel="noopener nofollow noreferrer">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <ul class="site-nav">
-                    <li class="list"> <a href="./index.html" class="link ">Студія</a> </li>
-                    <li class="list"> <a href="./portfolio.html" class="link current">Портфоліо</a> </li>
+                    <li class="list"> <a href="./index.html" class="link current">Студія</a> </li>
+                    <li class="list"> <a href="./portfolio.html" class="link">Портфоліо</a> </li>
                     <li class="list"> <a href="#" class="link">Контакти</a> </li>
                 </ul>
             </nav>
@@ -74,15 +114,15 @@
                                     <source srcset="
                                 ./images/portfolio/desctop-img/techno-1x.jpg 1x,
                                 ./images/portfolio/desctop-img/techno-2x.jpg 2x
-                                " media="min-width: 1200px">
+                                " media="(min-width: 1200px)">
                                     <source srcset="
                                 ./images/portfolio/tablet-img/techno-1x.jpg 1x,
                                 ./images/portfolio/tablet-img/techno-2x.jpg 2x
-                                " media="min-width: 768px">
+                                " media="(min-width: 768px)">
                                     <source srcset="
                                 ./images/portfolio/mobile-img/techno-1x.jpg 1x,
                                 ./images/portfolio/mobile-img/techno-2x.jpg 2x
-                                " media="max-width: 767px">
+                                " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/techno-1x.jpg" alt="techno" width="370">
                                 </picture>
                                 <p class="title-decsription">
@@ -104,15 +144,15 @@
                                     <source srcset="
                                 ./images/portfolio/desctop-img/new-orlean-1x.jpg 1x,
                                 ./images/portfolio/desctop-img/new-orlean-2x.jpg 2x
-                                " media="min-width: 1200px">
+                                " media="(min-width: 1200px)">
                                     <source srcset="
                                 ./images/portfolio/tablet-img/new-orlean-1x.jpg 1x,
                                 ./images/portfolio/tablet-img/new-orlean-2x.jpg 2x
-                                " media="min-width: 768px">
+                                " media="(min-width: 768px)">
                                     <source srcset="
                                 ./images/portfolio/mobile-img/new-orlean-1x.jpg 1x,
                                 ./images/portfolio/mobile-img/new-orlean-2x.jpg 2x
-                                " media="max-width: 767px">
+                                " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/new-orlean-1x.jpg" alt="new-orlean"
                                         width="370">
                                 </picture>
@@ -135,15 +175,15 @@
                                     <source srcset="
                                 ./images/portfolio/desctop-img/seafood-1x.jpg 1x,
                                 ./images/portfolio/desctop-img/seafood-2x.jpg 2x
-                                " media="min-width: 1200px">
+                                " media="(min-width: 1200px)">
                                     <source srcset="
                                 ./images/portfolio/tablet-img/seafood-1x.jpg 1x,
                                 ./images/portfolio/tablet-img/seafood-2x.jpg 2x
-                                " media="min-width: 768px">
+                                " media="(min-width: 768px)">
                                     <source srcset="
                                 ./images/portfolio/mobile-img/seafood-1x.jpg 1x,
                                 ./images/portfolio/mobile-img/seafood-2x.jpg 2x
-                                " media="max-width: 767px">
+                                " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/seafood-1x.jpg" alt="seafood" width="370">
                                 </picture>
                                 <p class="title-decsription">
@@ -165,15 +205,15 @@
                                     <source srcset="
                                 ./images/portfolio/desctop-img/prime-1x.jpg 1x,
                                 ./images/portfolio/desctop-img/prime-2x.jpg 2x
-                                " media="min-width: 1200px">
+                                " media="(min-width: 1200px)">
                                     <source srcset="
                                 ./images/portfolio/tablet-img/prime-1x.jpg 1x,
                                 ./images/portfolio/tablet-img/prime-2x.jpg 2x
-                                " media="min-width: 768px">
+                                " media="(min-width: 768px)">
                                     <source srcset="
                                 ./images/portfolio/mobile-img/prime-1x.jpg 1x,
                                 ./images/portfolio/mobile-img/prime-2x.jpg 2x
-                                " media="max-width: 767px">
+                                " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/prime-1x.jpg" alt="prime" width="370">
                                 </picture>
                                 <p class="title-decsription">
@@ -193,17 +233,17 @@
                             <div class="works-description">
                                 <picture>
                                     <source srcset="
-                                ./images/portfolio/desctop-img/boxes-1x.jpg 1x,
-                                ./images/portfolio/desctop-img/boxes-2x.jpg 2x
-                                " media="min-width: 1200px">
+                                        ./images/portfolio/desctop-img/boxes-1x.jpg 1x,
+                                        ./images/portfolio/desctop-img/boxes-2x.jpg 2x
+                                        " media="(min-width: 1200px)">
                                     <source srcset="
-                                ./images/portfolio/tablet-img/boxes-1x.jpg 1x,
-                                ./images/portfolio/tablet-img/boxes-2x.jpg 2x
-                                " media="min-width: 768px">
+                                        ./images/portfolio/tablet-img/boxes-1x.jpg 1x,
+                                        ./images/portfolio/tablet-img/boxes-2x.jpg 2x
+                                        " media="(min-width: 768px)">
                                     <source srcset="
-                                ./images/portfolio/mobile-img/boxes-1x.jpg 1x,
-                                ./images/portfolio/mobile-img/boxes-2x.jpg 2x
-                                " media="max-width: 767px">
+                                        ./images/portfolio/mobile-img/boxes-1x.jpg 1x,
+                                        ./images/portfolio/mobile-img/boxes-2x.jpg 2x
+                                        " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/boxes-1x.jpg" alt="boxes" width="370">
                                 </picture>
                                 <p class="title-decsription">
@@ -225,15 +265,15 @@
                                     <source srcset="
                                 ./images/portfolio/desctop-img/inspiration-1x.jpg 1x,
                                 ./images/portfolio/desctop-img/inspiration-2x.jpg 2x
-                                " media="min-width: 1200px">
+                                " media="(min-width: 1200px)">
                                     <source srcset="
                                 ./images/portfolio/tablet-img/inspiration-1x.jpg 1x,
                                 ./images/portfolio/tablet-img/inspiration-2x.jpg 2x
-                                " media="min-width: 768px">
+                                " media="(min-width: 768px)">
                                     <source srcset="
                                 ./images/portfolio/mobile-img/inspiration-1x.jpg 1x,
                                 ./images/portfolio/mobile-img/inspiration-2x.jpg 2x
-                                " media="max-width: 767px">
+                                " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/inspiration-1x.jpg" alt="inspiration"
                                         width="370">
                                 </picture>
@@ -256,15 +296,15 @@
                                     <source srcset="
                             ./images/portfolio/desctop-img/limited-edition-1x.jpg 1x,
                             ./images/portfolio/desctop-img/limited-edition-2x.jpg 2x
-                            " media="min-width: 1200px">
+                            " media="(min-width: 1200px)">
                                     <source srcset="
                             ./images/portfolio/tablet-img/limited-edition-1x.jpg 1x,
                             ./images/portfolio/tablet-img/limited-edition-2x.jpg 2x
-                            " media="min-width: 768px">
+                            " media="(min-width: 768px)">
                                     <source srcset="
                             ./images/portfolio/mobile-img/limited-edition-1x.jpg 1x,
                             ./images/portfolio/mobile-img/limited-edition-2x.jpg 2x
-                            " media="max-width: 767px">
+                            " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/limited-edition-1x.jpg"
                                         alt="limited-edition" width="370">
                                 </picture>
@@ -287,15 +327,15 @@
                                     <source srcset="
                             ./images/portfolio/desctop-img/lab-1x.jpg 1x,
                             ./images/portfolio/desctop-img/lab-2x.jpg 2x
-                            " media="min-width: 1200px">
+                            " media="(min-width: 1200px)">
                                     <source srcset="
                             ./images/portfolio/tablet-img/lab-1x.jpg 1x,
                             ./images/portfolio/tablet-img/lab-2x.jpg 2x
-                            " media="min-width: 768px">
+                            " media="(min-width: 768px)">
                                     <source srcset="
                             ./images/portfolio/mobile-img/lab-1x.jpg 1x,
                             ./images/portfolio/mobile-img/lab-2x.jpg 2x
-                            " media="max-width: 767px">
+                            " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/lab-1x.jpg" alt="lab" width="370">
                                 </picture>
                                 <p class="title-decsription">
@@ -317,15 +357,15 @@
                                     <source srcset="
                                 ./images/portfolio/desctop-img/growing-business-1x.jpg 1x,
                                 ./images/portfolio/desctop-img/growing-business-2x.jpg 2x
-                                " media="min-width: 1200px">
+                                " media="(min-width: 1200px)">
                                     <source srcset="
                                 ./images/portfolio/tablet-img/growing-business-1x.jpg 1x,
                                 ./images/portfolio/tablet-img/growing-business-2x.jpg 2x
-                                " media="min-width: 768px">
+                                " media="(min-width: 768px)">
                                     <source srcset="
                                 ./images/portfolio/mobile-img/growing-business-1x.jpg 1x,
                                 ./images/portfolio/mobile-img/growing-business-2x.jpg 2x
-                                " media="max-width: 767px">
+                                " media="(max-width: 767px)">
                                     <img src="./images/portfolio/desctop-img/growing-business-1x.jpg"
                                         alt="growing-business" width="370">
                                 </picture>
@@ -411,6 +451,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

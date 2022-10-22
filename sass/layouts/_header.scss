@@ -12,13 +12,16 @@
         align-items: center;
 
         @media screen and(min-width:$mobile) {
-            justify-content: space-between;
+            display: flex;
+            align-items: center;
         }
 
+        @media screen and(min-width:$mobile) {
+            width: 480px;
+            justify-content: space-between;
+        }
     }
 }
-
-
 
 .header-logo {
 

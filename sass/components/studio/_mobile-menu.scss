@@ -11,6 +11,11 @@
     @media screen and(min-width:$tablet) {
         display: none;
     }
+
+    & .icon-cross:hover,
+    .icon-cross:focus {
+        fill: url(--accent-color)
+    }
 }
 
 .menu-container {
@@ -23,7 +28,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    height: 769px;
+    height: 796px;
     padding: 48px 40px;
 
     overflow-y: scroll;
