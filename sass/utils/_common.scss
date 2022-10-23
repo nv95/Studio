@@ -33,21 +33,17 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 
-    // Changing geometry by Breakpoint (480px)
+
     @media screen and (min-width: $mobile) {
-        // Breakpoint geometry
         width: 480px;
     }
 
-    // Changing geometry by Breakpoint (768px)
     @media screen and (min-width: $tablet) {
-        // Breakpoint geometry
         width: 768px;
     }
 
-    // Changing geometry by Breakpoint (1200px)
+
     @media screen and (min-width: $desctop) {
-        // Breakpoint geometry
         width: 1200px;
     }
 

@@ -25,11 +25,6 @@
     padding-bottom: 60px;
     background-color: var(--secondary-bg-color);
 
-    @media screen and(min-width:$desctop) {
-        padding-top: 94px;
-        padding-bottom: 94px;
-    }
-
     & .footer-information {
         text-align: center;
 
@@ -55,18 +50,15 @@
     text-decoration: none;
     color: var(--primary-white-color);
 
-
     text-align: center;
     font-size: 24px;
     line-height: 1.17;
 
     @media screen and(min-width:$desctop) {
         text-align: left;
-        font-size: 36px;
-        line-height: 1.18;
-
+        font-size: 26px;
+        line-height: 1.19;
     }
-
 }
 
 .adress {
@@ -128,6 +120,7 @@
     }
 
     @media screen and (min-width:$desctop) {
+        text-align: left;
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 70px;

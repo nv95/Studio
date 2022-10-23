@@ -10,7 +10,6 @@
 
         @media screen and(min-width:$tablet) {
             width: 354px;
-            height: 440px;
         }
 
         @media screen and(min-width:$desctop) {
@@ -23,6 +22,12 @@
         display: block;
         text-decoration: none;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        @media screen and(min-width:$tablet) {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
     }
 
     & .works-link:hover,
@@ -56,6 +61,8 @@
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+
+    flex-grow: 1;
 }
 
 .works-description {
